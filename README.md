@@ -150,12 +150,18 @@ Angular Topics to Cover
 ### Inheritance in TypeScript (Day 2 - 3 hours)
 
 <!-- Reading -->
-
-- Interfaces
-<!-- Reading -->
-- Modules
+- Advanced Object Types
+  - Interfaces
+    - implements
+    - (extends?)
+  - Deep Types
+  - Composed Types
+  - Index signatures
+  - Optional type members
 <!-- Reading -->
 - Classes
+<!-- Reading -->
+- Modules
 <!-- Reading -->
 - Compiling
 <!-- Quiz -->
