@@ -20,12 +20,24 @@
   - JSON structure that fits the frontend view or component
   - Cypress.io
 
-### Lesson Notes
+### Module Timing Notes
 
-Time for lessons: Reading - 26min Code Along - 46min Lab - 56min Longer Lab - 2
-hours
+- 35 Hours a week max, including lectures
+- 5 hours of lectures a week?
+- Time for lessons DS:
+  - Reading: 26min
+  - Code Along: 46min
+  - Lab: 56min
+  - Longer Lab: 2 hours
 
-to add: short readings and mini labs?
+> Maybe better / more realistic times:
+>
+> - Short Reading: 10min
+> - Reading: 20min
+> - Code Along: 30min
+> - Mini Lab:20min
+> - Lab: 45min
+> - Longer Lab: 1.5hours
 
 #### Brainstorming
 
@@ -90,7 +102,9 @@ Angular Topics to Cover
 <!-- Quiz -->
 - TypeScript Fundamentals Quiz
 
-### Data Structures in TypeScript (Day 1 - 4 hours) Is this a good section?
+### Data Structures in TypeScript (Day 1 - 4 hours)
+
+> Aside from arrays this does't feel like a data structure section?
 
 <!-- Reading -->
 
@@ -115,9 +129,12 @@ Angular Topics to Cover
   <!-- Lab -->
   - Custom Types Lab
   <!-- Quiz -->
-- Data Structures in TypeScript Quiz
+- Data Structures / Custom Types in TypeScript Quiz
 
 ### Logic Structures in TypeScript (Day 2 - 2 hours)
+
+> Same as above, aside from unions and conditionals is this really a logic
+> structures section?
 
 <!-- Reading -->
 
@@ -133,6 +150,7 @@ Angular Topics to Cover
 ### Inheritance in TypeScript (Day 2 - 3 hours)
 
 <!-- Reading -->
+
 - Interfaces
 <!-- Reading -->
 - Modules
@@ -155,30 +173,54 @@ Angular Topics to Cover
 <!-- Quiz -->
 - Communicating with the Server Quiz
 
-### Project Mode / Additional Practice (Day 3)
+### Project Mode / Additional Practice (Day 3 - 4 hours)
 
 <!-- Project -->
-- Do we need this
-- Mini project? Bigger Hogwarts or something? (4 hours?)
 
-### Contract Testing and Design for the Frontend
+- Do we need this??
+- Mini project? Bigger Hogs or something? (4 hours?)
+
+## Contract Testing and Design for the Frontend
 
 3 days TS, 2 days for testing === 1 module
 
-### Contract Testing (Day 4)
+### Contract Testing (Day 4 - 4 hours)
+
+<!-- Reading -->
 
 - Intro to Contract Testing & Cypress
-- Cypress.io Env. set up
+  - Cypress.io Env. set up
+  <!-- Reading -->
 - Writing Cypress tests in TS part 1
-- Writing Cypress tests in TS part 1 Lab
+    <!-- Lab -->
+  - Writing Cypress tests in TS part 1 Lab
+  <!-- Code Along -->
 - Writing Cypress tests in TS part 2
-- Writing Cypress tests in TS part 2 Lab
+<!-- Lab -->
 - Bring it all together with tests lab
+<!-- Quiz -->
 - Contract Testing & Cypress.io Quiz
 
 ### Project Mode (Day 5)
 
-- 2 hour practice / review lab? Optional?
-- 5 hour project?
+<!-- Project -->
+
+- 4/5 hour project?
 
 ## [ Working ] Angular Module
+
+### Angular Fundamentals
+
+- Intro to Angular
+- Environment Set Up
+- Angular CLI
+
+### Architecture
+
+### Component Fundamentals
+
+### Component Life Cycles
+
+### Integrating TypeScript and Angular + Cypress
+
+> other topics? templates, routing, forms, server-side communication...
