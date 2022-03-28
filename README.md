@@ -220,13 +220,48 @@ Angular Topics to Cover
 - Intro to Angular
 - Environment Set Up
 - Angular CLI
+  - What it does
+  - How to
+  - Why we don't want to rely on it
+- Integrating TypeScript
+- Overview of an Angular app (would love to scrimba this in V2)
 
-### Architecture
+#### Modules
 
-### Component Fundamentals
+- Topics:
+  - ES6 Module syntax
+  - @NgModule - organization at a framework level
+  - Declarations, imports, providers, exports, bootstrap
 
-### Component Life Cycles
+#### Routes
 
-### Integrating TypeScript and Angular + Cypress
+- Route definition tables
+- Loaded int the router-outlet directive
+- routerLink directive
+- history.pushState
+
+#### Components
+
+- Templates
+  - Templates are HTML that tells angular how to render a component
+  - Leverages native DOM events and properties, not a virtual DOM
+- Classes
+  - Component classes are just ES6 classes
+  - What's available to the template
+  - Provider injected into the constructor
+  - Component lifecycle hooks
+- Metadata - (Integrating Classes and Templates)
+  - Decorators
+  - Data binding
+  - nG model
+  - Directives
+
+- Services
+  - Communicating with the server
+  - State management
+  - @injectable
+  - @ngrx
+
+### Integrating TypeScript and Angular + Cypress Project Mode
 
 > other topics? templates, routing, forms, server-side communication...
