@@ -150,6 +150,7 @@ Angular Topics to Cover
 ### Inheritance in TypeScript (Day 2 - 3 hours)
 
 <!-- Reading -->
+
 - Advanced Object Types
   - Interfaces
     - implements
@@ -158,7 +159,7 @@ Angular Topics to Cover
   - Composed Types
   - Index signatures
   - Optional type members
-<!-- Reading -->
+  <!-- Reading -->
 - Classes
 <!-- Reading -->
 - Modules
@@ -226,21 +227,21 @@ Angular Topics to Cover
 - Integrating TypeScript
 - Overview of an Angular app (would love to scrimba this in V2)
 
-#### Modules
+### Modules
 
 - Topics:
   - ES6 Module syntax
   - @NgModule - organization at a framework level
   - Declarations, imports, providers, exports, bootstrap
 
-#### Routes
+### Routes
 
 - Route definition tables
 - Loaded int the router-outlet directive
 - routerLink directive
 - history.pushState
 
-#### Components
+### Components
 
 - Templates
   - Templates are HTML that tells angular how to render a component
@@ -251,6 +252,7 @@ Angular Topics to Cover
   - Provider injected into the constructor
   - Component lifecycle hooks
 - Metadata - (Integrating Classes and Templates)
+
   - Decorators
   - Data binding
   - nG model
