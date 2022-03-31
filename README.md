@@ -189,15 +189,34 @@ Angular Topics to Cover
 
 ## Contract Testing and Design for the Frontend
 
-3 days TS, 2 days for testing === 1 module
-
-### Contract Testing (Day 4 - 4 hours)
+### Contract Testing (Day 4)
 
 <!-- Reading -->
-
-- Intro to Contract Testing & Cypress
+- Intro to Cypress
   - Cypress.io Env. set up
-  <!-- Reading -->
+  - Using the test runner
+  - Creating your first test Code-Along
+  - Querying, Selecting, and Verifying with tests
+    - get / should('exists') / contains / should test lab
+  - Should Test Method Code Along
+
+- Aliases
+  - Aliases Lab
+- Complex Inputs
+- Generating Tests
+- Testing Form Validations
+- Running tests at Server level
+- Authentication testing
+- Network Requests
+  - Interceptions
+  - Fixtures
+  - Searches
+  - Cookies and Sessions
+  Network Request Lab
+
+- Mocking Requests
+- Continuous Integration
+
 - Writing Cypress tests in TS part 1
     <!-- Lab -->
   - Writing Cypress tests in TS part 1 Lab
@@ -226,6 +245,7 @@ Angular Topics to Cover
   - Why we don't want to rely on it
 - Integrating TypeScript
 - Overview of an Angular app (would love to scrimba this in V2)
+- classes (everything is just a class!!)
 
 ### Modules
 
@@ -233,6 +253,7 @@ Angular Topics to Cover
   - ES6 Module syntax
   - @NgModule - organization at a framework level
   - Declarations, imports, providers, exports, bootstrap
+  - Pipe?
 
 ### Routes
 
@@ -256,13 +277,16 @@ Angular Topics to Cover
   - Decorators
   - Data binding
   - nG model
-  - Directives
+  <!-- - Directives -->
+
+- Directives
 
 - Services
   - Communicating with the server
   - State management
   - @injectable
   - @ngrx
+  - how to share data between controllers === service
 
 ### Integrating TypeScript and Angular + Cypress Project Mode
 
