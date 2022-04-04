@@ -289,5 +289,3 @@ Angular Topics to Cover
   - how to share data between controllers === service
 
 ### Integrating TypeScript and Angular + Cypress Project Mode
-
-> other topics? templates, routing, forms, server-side communication...
