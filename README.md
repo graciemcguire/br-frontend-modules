@@ -1,291 +1,157 @@
-# [DRAFT] BlackRock Frontend Modules Outline
+Typescript / Angular Outline
+Deliverable - Frontend (2 Weeks / 35 hours a week)
 
-## Learning Goals
 
-- 2 weeks / 35 hours a week
+TypeScript 
+Data structures
+Logic structures
+Inheritance
 
-- TypeScript
 
-  - Data structures
-  - Logic structures
-  - Inheritance
 
-- Angular
 
-  - Architecture
-  - Component Lifecycle
-  - Component Fundamentals
+Angular
+Architecture
+Component Lifecycle
+Component Fundamentals
 
-- Contract Testing and Design for the Frontend
-  - JSON structure that fits the frontend view or component
-  - Cypress.io
+Contract Testing and Design for the Frontend
+JSON structure that fits the frontend view or component
+Cypress.io
 
-### Module Timing Notes
 
-- 35 Hours a week max, including lectures
-- 5 hours of lectures a week?
-- Time for lessons DS:
-  - Reading: 26min
-  - Code Along: 46min
-  - Lab: 56min
-  - Longer Lab: 2 hours
+Week 1
+TypeScript
+Data structures, Logic structures, Inheritance
+TypeScript Fundamentals
+Intro to TypeScript 
+Working with TypeScript (TSC Compiler + env setup Code Along)
+Type Annotations
+Assigning Types + Type Inference 
+Primitive Types
+Type Assignment / Type Inference with Primitives Lab
+Function Types 
+Function Types Lab
+Unknown, Never and Void Types
+TypeScript Fundamentals Quiz
+Object Types 
+Intro to Object Types
+Array Types
+Array Type Annotations + Nested Arrays Code Along
+Tuples
+Tuples Lab
+Enum types 
+Object types 
+Enum + Object Types Lab
+Type Aliases Code Along
+Union Types
+Type Narrowing
+Type Narrowing Lab
+Type Guards Code Along
+Object Types Quiz 
+Type Manipulation
+Generic Types
+Generic Types Lab
+Mapped Types
+Conditional & Intersection Types Code Along
+Template Literal Types
+Type Manipulation Quiz
+Inheritance in TypeScript
+Declarations
+Reusable Types 
+Interfaces + Type Aliases Lab
+Index Signatures
+Modules
+Classes
+this Types Code Along
+Inheritance Quiz
 
-> Maybe better / more realistic times:
->
-> - Short Reading: 10min
-> - Reading: 20min
-> - Code Along: 30min
-> - Mini Lab:20min
-> - Lab: 45min
-> - Longer Lab: 1.5hours
+Contract Testing and Design for the Frontend
+JSON structure that fits the frontend view or component, Cypress.io 
+Intro to Testing
+Contract Testing and Design
+Cypress.io Env setup
+Using the test runner
+Create Your First Test Code Along
+Querying, Selecting, and Verifying with Tests
+get / should(‘exist’) / contains / should Lab
+Should Test Code Along 
+Testing Quiz
+Testing with Cypress.io
+Aliases 
+Complex Inputs
+Aliases and Complex Inputs Lab
+Generating Tests
+Testing Form Validations
+Advanced Cypress.io Testing
+Server Level Tests
+Database Initialization and Seeding Code Along
+Authentication Testing
+Network Requests
+Interceptions
+Fixtures
+Searches
+Cookies and Sessions
+Network Requests Lab
+Mocking requests
+Continuous Integration Code Along
+Testing in Cypress.io Quiz
+Week 2
+Angular
+Architecture, Component Lifecycle, Component Fundamentals
+Angular Fundamentals
+Intro to Angular
+Environment Setup
+Using TypeScript with Angular
+Overview of an Angular Application
+Module / Pipe / Component / Service / Directive
+Providers & Decorators & Declarations, Oh my!
+Angular Fundamentals Quiz
+Components
+Anatomy of a Component
+Component Lifecycle Hooks
+Component Driven Architecture
+Data Binding
+Property Binding Code Along
+Event Binding Code Along
+ngModel
+Components Quiz
+Templates
+Angular Templates
+Event Binding
+Property Binding 
+Binding Lab
+ngModel 
+Reactive Forms
+Reactive Form Code Along
+Template Driven Forms
+Template Driven Form Lab
+Templates Quiz
 
-#### Brainstorming
+Services
+What are Angular Services?
+Using JSON Server Code along
+State Management
+State Lab
+Communicating with the Server 
+Observable Streams
+.subscribe method
+Async Pipe
+HTTP Client
+Angular CRUD Lab
+Services Quiz
 
-TypeScript Topics to Cover:
 
-- What is typescript
-- Types in JS / typeof (recap or comparison?)
-- Working with typescript
-- Assigning types
-- Benefits of typescript
-- Type assignment and Type Inference
-- Primitive types
-- array types
-- Tuples
-- Custom types
-- Object types
-- Enum types
-- Any types
-- Union types
-- Type Narrowing / Type Guards
-- Conditional types
-- Intersection types
-- Function return types + void type
-- Unknown and never type
-- Interfaces
-- Modules
-- Classes
-- Compiling
-- Common Errors
+Directives
+Built in Directives
+Attribute Directives
+Structural Directives
+Directives Lab	
+Routing
+Route Definition Tables
+routerLink & history.pushState
+Routes Lab
+Directives & Routing Quiz
 
-Angular Topics to Cover
-
-- What is Angular
-- Angular CLI
-
-## [ Working ] TypeScript Module
-
-3 days? 2 days for testing === 1 module
-
-### TypeScript Fundamentals (Day 1 - 4 hours)
-
-<!-- Reading -->
-<!-- (time boxing for 1 reading, breaking into 2 lessons) -->
-
-- Intro to TypeScript
-  - What is TypeScript
-- Working with TS
-  - (env set up / tsc compiler)
-  - error reading
-  <!-- Reading -->
-- Benefits of TS
-  - Types in JS + `typeof`
-  - Demonstrate JS errors and the TS fix
-  <!-- Reading -->
-- Assigning types and Type Inference
-<!-- Reading -->
-- Primitive Types (Number, String, Boolean examples)
-<!-- Lab -->
-- Type Assignment / Type Inference with Primitive Types Lab
-<!-- Code along -->
-- Function return types + void types + any types
-<!-- Quiz -->
-- TypeScript Fundamentals Quiz
-
-### Data Structures in TypeScript (Day 1 - 4 hours)
-
-> Aside from arrays this does't feel like a data structure section?
-
-<!-- Reading -->
-
-- Array types
-<!-- Code Along -->
-- Array type annotations + Nested Arrays
-<!-- Code Along -->
-- Tuples
-
-> We could break here for day 1, and move arrays+tuples into fundamentals
-> section, and make the second section "Custom Types"
-
-- Custom types (broken into 2 parts + Lab) :
-    <!-- Code Along -->
-  - Enum types
-  - Object types
-  - Type aliases
-  <!-- Reading -->
-  - Function types
-  <!-- Reading -->
-  - Generic types
-  <!-- Lab -->
-  - Custom Types Lab
-  <!-- Quiz -->
-- Data Structures / Custom Types in TypeScript Quiz
-
-### Logic Structures in TypeScript (Day 2 - 2 hours)
-
-> Same as above, aside from unions and conditionals is this really a logic
-> structures section?
-
-<!-- Reading -->
-
-- Union types
-  - Type Narrowing / Type Guards
-  <!-- Code Along -->
-- Conditional types
-<!-- Reading -->
-- Unknown and never type
-<!-- Quiz -->
-- Logic Structures in TypeScript Quiz
-
-### Inheritance in TypeScript (Day 2 - 3 hours)
-
-<!-- Reading -->
-
-- Advanced Object Types
-  - Interfaces
-    - implements
-    - (extends?)
-  - Deep Types
-  - Composed Types
-  - Index signatures
-  - Optional type members
-  <!-- Reading -->
-- Classes
-<!-- Reading -->
-- Modules
-<!-- Reading -->
-- Compiling
-<!-- Quiz -->
-- Inheritance in TypeScript Quiz
-
-### Communicating with the Server in TypeScript (Day 3 - 2 hours)
-
-<!-- Reading -->
-
-- TypeScript Communicating with the server
-<!-- Code Along -->
-- Using TypeScript with JSON-server
-<!-- Lab -->
-- TypeScript CRUD
-<!-- Quiz -->
-- Communicating with the Server Quiz
-
-### Project Mode / Additional Practice (Day 3 - 4 hours)
-
-<!-- Project -->
-
-- Do we need this??
-- Mini project? Bigger Hogs or something? (4 hours?)
-
-## Contract Testing and Design for the Frontend
-
-### Contract Testing (Day 4)
-
-<!-- Reading -->
-- Intro to Cypress
-  - Cypress.io Env. set up
-  - Using the test runner
-  - Creating your first test Code-Along
-  - Querying, Selecting, and Verifying with tests
-    - get / should('exists') / contains / should test lab
-  - Should Test Method Code Along
-
-- Aliases
-  - Aliases Lab
-- Complex Inputs
-- Generating Tests
-- Testing Form Validations
-- Running tests at Server level
-- Authentication testing
-- Network Requests
-  - Interceptions
-  - Fixtures
-  - Searches
-  - Cookies and Sessions
-  Network Request Lab
-
-- Mocking Requests
-- Continuous Integration
-
-- Writing Cypress tests in TS part 1
-    <!-- Lab -->
-  - Writing Cypress tests in TS part 1 Lab
-  <!-- Code Along -->
-- Writing Cypress tests in TS part 2
-<!-- Lab -->
-- Bring it all together with tests lab
-<!-- Quiz -->
-- Contract Testing & Cypress.io Quiz
-
-### Project Mode (Day 5)
-
-<!-- Project -->
-
-- 4/5 hour project?
-
-## [ Working ] Angular Module
-
-### Angular Fundamentals
-
-- Intro to Angular
-- Environment Set Up
-- Angular CLI
-  - What it does
-  - How to
-  - Why we don't want to rely on it
-- Integrating TypeScript
-- Overview of an Angular app (would love to scrimba this in V2)
-- classes (everything is just a class!!)
-
-### Modules
-
-- Topics:
-  - ES6 Module syntax
-  - @NgModule - organization at a framework level
-  - Declarations, imports, providers, exports, bootstrap
-  - Pipe?
-
-### Routes
-
-- Route definition tables
-- Loaded int the router-outlet directive
-- routerLink directive
-- history.pushState
-
-### Components
-
-- Templates
-  - Templates are HTML that tells angular how to render a component
-  - Leverages native DOM events and properties, not a virtual DOM
-- Classes
-  - Component classes are just ES6 classes
-  - What's available to the template
-  - Provider injected into the constructor
-  - Component lifecycle hooks
-- Metadata - (Integrating Classes and Templates)
-
-  - Decorators
-  - Data binding
-  - nG model
-  <!-- - Directives -->
-
-- Directives
-
-- Services
-  - Communicating with the server
-  - State management
-  - @injectable
-  - @ngrx
-  - how to share data between controllers === service
-
-### Integrating TypeScript and Angular + Cypress Project Mode
+Frontend Project 
+Bringing TypeScript, Cypress, & Angular all together!
